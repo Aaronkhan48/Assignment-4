@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="a4.css" >
+  </head>
+  <body><br>
+<!-- part 1 of modal window： main window content (a element) -->
+    <div class="row">
+          <div class="sub">
+            <img src = "fruit.png" width = "350" height = "300">
+            <p class ="a">Description of the first product</p>
+            <a class="seseamopen" href="#mysesame">Open modal Link</a>
+          </div>
+          <div class="sub">
+            <img src = "cereal.jpeg" width = "350" height = "300">
+            <p class = "a">Description of the second product</p>
+            <a class="seseamopen" href="#anothermysesame">Open modal Link II</a>
+
+          </div>
+    </div>
+
+    <!-- part 2 of modal window： main window content (a element) -->
+    <div class="mdlwindow" id="mysesame">
+    <div class="msgblock">
+        <div class = "c"><h1 style = "color: white;">Modal Windal Example
+            <a class ="stop" href="#"><span class = "close">&times;</span></a></h1></div>
+        <div class = "d"><div class = "e"> <p>This is a paragaph in the message window. This is a paragraph in the message window. This is a paragaph in the message window. </p></div></div>
+        <img class = "f" src = "apple.jpeg" width = "380">
+
+    </div>
+    </div>
+
+
+    <div class="mdlwindow" id="anothermysesame" style = "background: rgba(18, 131, 52, 0.8);">
+    <div class="msgblock" style = " background-color: skyblue;">
+        <div class = "c"><h1 style = "color: white;">Modal Windal Example
+            <a class ="stop" href="#"><span class = "close">&times;</span></a></h1></div>
+        <div class = "d"><div class = "e"> <p>This is a paragaph in the message window. This is a paragraph in the message window. This is a paragaph in the message window. </p></div></div>
+        <img class = "f" src = "apple.jpeg" width = "380">    
+    </div>
+    </div><br><br><br><br><hr> 
+
+
+    
+    <div class = "container">
+      <div class = "row border border-2 border-primary px-1 py-1">
+          <div class = "col-5">
+              <img src = "star.jpeg" class = "img-fluid rounded w-100 border border-3 border-dark" alt="">
+          </div>
+
+
+          <div class = "col-7 border border-3 border-dark pb-5">
+              <div class = "row px-3 py-4">
+                  <div class = "col-4 ">
+                      <img src = "star.jpeg" class = "img-fluid rounded w-100 border border-3 border-dark " alt="">
+                  </div>
+                  <div class = "col-4">
+                      <img src = "star.jpeg" class = "img-fluid rounded w-100 border border-3 border-dark" alt="">
+                  </div>
+                  <div class = "col-4">
+                      <img src = "star.jpeg" class = "img-fluid rounded w-100 border border-3 border-dark" alt="">
+                  </div>
+              </div>
+
+              <div class = "row px-3 py-1">
+                  <div class = "col-4">
+                      <div class = " border border-3 border-dark">
+                          <img src = "star.jpeg" class = "img-fluid rounded w-100" alt="">
+                      </div>
+                  </div>
+                  <div class = "col-4">
+                      <img src = "star.jpeg" class = "img-fluid rounded w-100 border border-3 border-dark" alt="">
+                  </div>
+                  <div class = "col-4">
+                      <img src = "star.jpeg" class = "img-fluid rounded w-100 border border-3 border-dark" alt="">
+                  </div>
+              </div>
+
+              <div class = "row px-3 py-3">
+                  <div class = "col-4">
+                      <img src = "star.jpeg" class = "img-fluid rounded w-100 border border-3 border-dark" alt="">
+                  </div>
+                  <div class = "col-4">
+                      <img src = "star.jpeg" class = "img-fluid rounded w-100 border border-3 border-dark" alt="">
+                  </div>
+                  <div class = "col-4">
+                      <img src = "star.jpeg" class = "img-fluid rounded w-100 border border-3 border-dark" alt="">
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
